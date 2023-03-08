@@ -19,7 +19,8 @@ class CounterCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Bali You have pushed the button this many times:',
+              style: TextStyle(fontSize: 50),
             ),
             Text(
               '$count',
